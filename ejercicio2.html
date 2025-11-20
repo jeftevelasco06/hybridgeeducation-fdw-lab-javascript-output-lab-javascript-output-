@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demostración de Output en Javascript</title>
+
+    <script>
+        console.log("La página ha sido cargada correctamente.");
+        
+        function mostrarAlerta() {
+            alert("Jefte Velasco");
+        }
+
+        function actualizarParrafo() {
+            document.getElementById("miParrafo").innerText = "¡Texto actualizado con Javascript!";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Demostración de Output en Javascript</h1>
+
+    <button onclick="mostrarAlerta()">Mostrar alerta</button>
+
+    <hr>
+
+    <p id="miParrafo"></p>
+
+    <button onclick="actualiza
